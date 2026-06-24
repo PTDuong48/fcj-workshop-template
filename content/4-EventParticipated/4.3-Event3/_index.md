@@ -1,14 +1,16 @@
 ---
-title: "Event 1"
+title: "Event 3"
 date: 2024-01-01
-weight: 1
+weight: 3
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b> 4.3. </b> "
 ---
 
+{{% notice warning %}}
+⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
+{{% /notice %}}
 
-
-# FCAJ Community Day
+# Summary Report: "FCAJ Community Day"
 
 ### Event Overview
 
@@ -63,13 +65,3 @@ pre: " <b> 4.1. </b> "
 - **Most important knowledge:** Foundation is what doesn't change in a rapidly changing world.
 - **Practical experience:** Mistakes are part of growth; we need to make mistakes early and often to mature.
 - **Learning or future development orientation:** Focus on building persistence and professional attitude rather than chasing hot Frameworks.
-
-### Some event photos
-
-![Event photo 1](event1-1.png)
-
-![Event photo 2](event1-2.png)
-
-![Event photo 3](event1-3.png)
-
-![Event photo 4](event1-4.png)

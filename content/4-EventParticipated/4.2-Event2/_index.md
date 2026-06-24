@@ -1,126 +1,93 @@
 ---
 title: "Event 2"
 date: 2024-01-01
-weight: 1
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
 
-### Event Objectives
+# FCAJ Community Day
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+### Event Overview
 
-### Speakers
+- **Event Name:** FCAJ Community Day.
+- **Event Objectives:**
+  - Not just a simple audio-visual seminar, but a place for members to connect and inspire each other in the technology field.
+  - Provide a realistic view of the job market in the AI era.
+  - Share technical knowledge ranging from AI and Cloud to practical experiences in projects and hackathons.
+  - Main message to convey: A proactive learning spirit, equipping practical knowledge (case studies) and real products rather than relying solely on degrees or theoretical demos.
+  - Value for attendees: Opportunities to connect with potential partners, learn practical experience from top industry speakers, and update on the latest tech trends such as AI Agents, CloudFront pricing, and Multi-agent systems.
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+### Speakers List
+
+1. **Mr. Nguyen Gia Hung:**
+   - Position: Solution Architect at AWS Vietnam.
+   - Role: Founder of FCAJ, opening speaker on market trends.
+2. **Mr. Tinh Truong:**
+   - Position: Platform Engineer.
+   - Company: Got It (Gothamic).
+3. **Mr. Hai Anh:**
+   - Company: Pacific Vietnam.
+4. **Mr. Nguyen Huan Thinh:**
+   - Position: DevOps Engineer.
+5. **UTM Team (Uyen, Thao, Mach):** Winning team at a Hackathon competition.
+6. **Female Speaker (unnamed):**
+   - Company: VPBank (shared about Multi-agent systems in banking).
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+- **Problem Overview:**
+  - The job market is changing drastically due to AI, making software development cheaper but increasing the demand for operations (Platform Engineering).
+  - Fears of unexpected Cloud costs ("Bill spikes") when using the Pay-as-you-go model.
+  - The lack of determinism of Large Language Models (LLMs) in enterprise environments.
+- **Introduced Solutions:**
+  - Use Amazon CloudFront Flat-rate pricing to fix monthly CDN costs.
+  - Build Multi-agent systems to solve complex problems like credit scoring.
+  - Provide accurate and sufficient Context for AI to optimize outputs.
+- **Technologies/Services/Tools:** AWS CloudFront, Amazon QuickSight, Amazon Bedrock, Terraform, Obsidian (for AI Second Brain), and LLM models (GPT, Llama, Claude).
+- **Demo or Case Study:**
+  - UTMorpho Project: A tool for direct UI editing using AI built in a 36-hour Hackathon.
+  - Credit scoring system for Startups: Using Multi-agent to analyze non-traditional data for banks.
+- **Notable Points:** The importance of Security & Compliance in large enterprises; AI is not just a chatbot but must know how to act (Agentic AI).
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+### What Was Learned
 
-#### Transitioning to modern application architecture – Microservices
+- **Mindset and Methods:**
+  - AI Mindset & AI Adoption: How to apply AI effectively to business processes.
+  - Working Backwards: Starting from customer needs to build systems.
+- **Technical Knowledge:** Understanding the Temperature parameter (t=0 is not completely deterministic on the Cloud due to hardware optimization), CDN multi-tier caching mechanisms, and VPC Origin security.
+- **Best Practices:** Always test multiple times, use JSON Mode to stabilize AI output formats, and rotate API Keys frequently.
+- **Practical Experience:** In enterprises, "Ship in, Ship out" (Garbage in, Garbage out), requiring human intervention to verify AI knowledge.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+### Application to Work
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
-
-#### Domain-Driven Design (DDD)
-
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
-
-#### Event-Driven Architecture
-
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
-
-### Key Takeaways
-
-#### Design Mindset
-
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
-
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- **What can be applied:** Designing AI systems capable of parallel processing and audit trails.
+- **Technologies to test:** Deploying infrastructure using Terraform (IaC) for easy management and environment reproduction.
+- **Ideas to improve workflow:** Integrating AI Agents to automate meeting summaries and send follow-up action emails to stakeholders.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+- **Learning from speakers:** "Painful" real-world stories about copying GPT code causing errors in production.
+- **Hands-on experience:** Watching live demos on how AI streams HTML source code and allows drag-and-drop UI editing.
+- **Networking:** Encouraging attendees to initiate conversations with people sitting next to them as they could be future partners.
+- **Most impressive point:** The enthusiasm of the community and the willingness to share failures and practical lessons.
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+### Key Takeaways
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+- **Most important knowledge:** AI is a probabilistic model, not deterministic, so systems need to be designed to handle this randomness.
+- **Practical experience:** Don't just show a demo, provide a product with real value to end-users.
+- **Learning or future development orientation:** Focus on solid Software Engineering knowledge alongside AI skills to deploy practical products instead of just working in a lab.
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+### Some event photos
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+![Event photo 1](event2-1.png)
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+![Event photo 2](event2-2.png)
 
-#### Some event photos
-*Add your event photos here*  
+![Event photo 3](event2-3.png)
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+![Event photo 4](event2-4.png)
+
+![Event photo 5](event2-5.png)

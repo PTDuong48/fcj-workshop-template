@@ -1,14 +1,16 @@
 ---
-title: "Event 1"
+title: "Event 3"
 date: 2024-01-01
-weight: 1
+weight: 3
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b> 4.3. </b> "
 ---
 
+{{% notice warning %}}
+⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
+{{% /notice %}}
 
-
-# FCAJ Community Day
+# Bài thu hoạch "FCAJ Community Day"
 
 ### Tổng quan sự kiện
 
@@ -63,13 +65,3 @@ pre: " <b> 4.1. </b> "
 - **Kiến thức quan trọng nhất:** Nền tảng (Foundation) là cái không thay đổi trong một thế giới thay đổi quá nhanh.
 - **Kinh nghiệm thực tế:** Sai lầm là một phần của sự phát triển; cần mắc sai lầm sớm và nhiều để trưởng thành.
 - **Định hướng học tập hoặc phát triển tiếp theo:** Tập trung xây dựng sự kiên trì (persistence) và thái độ chuyên nghiệp thay vì chỉ chạy theo các Framework hot.
-
-### Một số hình ảnh khi tham gia sự kiện
-
-![Hình ảnh sự kiện 1](event1-1.png)
-
-![Hình ảnh sự kiện 2](event1-2.png)
-
-![Hình ảnh sự kiện 3](event1-3.png)
-
-![Hình ảnh sự kiện 4](event1-4.png)
