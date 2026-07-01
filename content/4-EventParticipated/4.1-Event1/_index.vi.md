@@ -12,7 +12,10 @@ pre: " <b> 4.1. </b> "
 
 ### Tổng quan sự kiện
 
-- **Tên Sự Kiện:** FCAJ Community Day.
+- **Tên Sự Kiện:** FCAJ Community Day
+- **Thời gian tổ chức:** 09/05/2026
+- **Địa điểm tổ chức:** Tầng 26 - Văn phòng AWS Việt Nam (Tòa nhà Bitexco, Số 2 Hải Triều, Phường Sài Gòn, TP.HCM)
+- **Đơn vị tổ chức:** Cộng đồng FCAJ (với sự hỗ trợ của AWS Study Group).
 - **Mục Đích Của Sự Kiện:**
   - Chia sẻ các kiến thức về kỹ thuật (technical) và các phương pháp học tập, định hướng nghề nghiệp cho các bạn sinh viên và người làm IT.
   - Giúp người tham dự xây dựng tư duy học tập hiệu quả, nắm bắt kỹ năng làm việc với AI và chuẩn bị hành trang để gia nhập thị trường lao động.

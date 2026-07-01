@@ -1,58 +1,29 @@
 ---
 title: "Worklog Tuần 6"
 date: 2024-01-01
-weight: 1
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 6:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Ôn tập các khái niệm cơ bản về Cơ sở dữ liệu (Database Concepts).
+* Tìm hiểu sâu về các dịch vụ cơ sở dữ liệu quan hệ và phi quan hệ trên AWS (RDS, Aurora, Redshift, ElastiCache).
+* Áp dụng kiến thức thông qua việc thực hành các bài lab của module 6.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 7 | Tìm hiểu Database Concepts review | 23/05/2026 | 23/05/2026 | <https://www.youtube.com/watch?v=OOD2RwWuLRw&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=217> |
+| CN | Tìm hiểu Amazon RDS & Amazon Aurora | 24/05/2026 | 24/05/2026 | <https://www.youtube.com/watch?v=qbrobQZrokY&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=218> |
+| 2 | Tìm hiểu Redshift - Elasticache | 25/05/2026 | 25/05/2026 | <https://www.youtube.com/watch?v=UvdlRW34aNl&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=219> |
+| 3 | Thực hành các bài lab module 6 | 26/05/2026 | 29/05/2026 | <https://000043.awsstudygroup.com/> <br> <https://000005.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Nắm vững các khái niệm nền tảng về cơ sở dữ liệu, hiểu rõ các trường hợp sử dụng tối ưu cho từng loại database.
+* Hiểu cách cấu hình, mở rộng và quản lý các cơ sở dữ liệu quan hệ với Amazon RDS và Amazon Aurora (đảm bảo hiệu suất cao và tính sẵn sàng).
+* Khám phá cách lưu trữ, phân tích dữ liệu quy mô lớn với Amazon Redshift và cải thiện hiệu suất ứng dụng bằng bộ nhớ đệm (caching) thông qua Amazon ElastiCache.
+* Hoàn thành tốt các bài thực hành lab của module 6, tự tin trong việc khởi tạo và quản trị hệ quản trị cơ sở dữ liệu trên môi trường AWS.

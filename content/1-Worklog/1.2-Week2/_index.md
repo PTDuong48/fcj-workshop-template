@@ -1,57 +1,33 @@
 ---
 title: "Week 2 Worklog"
 date: 2024-01-01
-weight: 1
+weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 2 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Understand the AWS Global Infrastructure, management tools, and cost optimization.
+* Deep dive into AWS Virtual Private Cloud (VPC), security features, and advanced networking services (VPN, Direct Connect, Load Balancer).
+* Practice and complete lab module 1 and module 2.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| Saturday | Learn about AWS Global Infrastructure | 25/04/2026 | 25/04/2026 | <https://www.youtube.com/watch?v=pjr5a-HYAjI&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=7> |
+| Sunday | Learn about AWS Management Tools | 26/04/2026 | 26/04/2026 | <https://www.youtube.com/watch?v=2PQYqH_HkXw&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=8> |
+| Monday | Learn about AWS Cost Optimization and Working with AWS Support | 27/04/2026 | 27/04/2026 | <https://www.youtube.com/watch?v=IY61YlmXQs8&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=9> |
+| Monday | Practice Lab Module 1 | 27/04/2026 | 27/04/2026 | <https://000001.awsstudygroup.com/> <br> <https://000007.awsstudygroup.com/> <br> <https://000009.awsstudygroup.com/> |
+| Tuesday | Learn about AWS Virtual Private Cloud | 28/04/2026 | 28/04/2026 | <https://www.youtube.com/watch?v=O9Ac_vGHguM&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=25> |
+| Wednesday | Learn about VPC Security and Multi-VPC features | 29/04/2026 | 29/04/2026 | <https://www.youtube.com/watch?v=BPuD1l2hEQ4&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=26> |
+| Thursday | Learn about VPN - DirectConnect - LoadBalancer - ExtraResources | 30/04/2026 | 30/04/2026 | <https://www.youtube.com/watch?v=CXU8D3kyxlc&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=27> |
+| Friday | Practice Lab Module 2 | 31/04/2026 | 01/05/2026 | <https://000003.awsstudygroup.com/> <br> <https://000058.awsstudygroup.com/> <br> <https://000019.awsstudygroup.com/> <br> <https://000020.awsstudygroup.com/> <br> <https://000010.awsstudygroup.com/> |
 
 
 ### Week 2 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Clearly understood the AWS global infrastructure architecture and learned how to use service management and cost optimization tools.
+* Mastered computer networking knowledge on AWS such as VPC, virtual private network (VPN) configuration, Direct Connect, and Load Balancer.
+* Successfully completed lab module 1 and module 2 according to instructions, applying learned knowledge in practice.
+* Gained confidence to present and configure basic network security (VPC Security).

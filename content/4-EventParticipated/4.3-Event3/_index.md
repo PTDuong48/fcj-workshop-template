@@ -6,62 +6,70 @@ chapter: false
 pre: " <b> 4.3. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: "FCAJ Community Day"
+# "FCAJ Community Day" Event Report
 
 ### Event Overview
+- **Event Name:** FCAJ Community Day
+- **Date:** 27/06/2026
+- **Location:** 26th Floor - AWS Vietnam Office (Bitexco Building, 2 Hai Trieu, Saigon Ward, Ho Chi Minh City).
+- **Organizer:** FCAJ Community (supported by AWS Study Group).
+- **Purpose of the Event:**
+  - Create a space for speakers from various enterprises to share their experiences and practical perspectives in a professional work environment with the community.
+  - Provide career orientation for students, update them on the latest technology trends in Cloud and AI, and introduce solutions to optimize business operations.
 
-- **Event Name:** FCAJ Community Day.
-- **Event Objectives:**
-  - Share technical knowledge and learning methods, career orientation for students and IT professionals.
-  - Help attendees build effective learning mindsets, grasp skills for working with AI, and prepare for the labor market.
-  - "Hack" the brain for effective learning, advanced Prompt Engineering techniques, employer's mindset during interviews, and BMX software development method combined with AI.
-  - Professional knowledge about AWS, AI, practical experiences from experts; networking opportunities and presentation skills practice.
-
-### Speakers List
-
-1. **Speaker 1:** Huynh Hoang Long - Sharing on the topic "Hack your brain to be addicted to learning".
-2. **Speaker 2:** Nguyen Tuan Thinh - Sharing about "Ultimate Prompt Engineering".
-3. **Speaker 3 (Mr. Khang):** Solution Architect at Cloud Kinetics (3 years of experience).
-4. **Speaker 4 (Ms. Thao):** Software Developer at Vietnam International Bank (VIB).
+### List of Speakers
+1. **Steve Tran:** Founder of Cloud Thinker.
+2. **Danh Nghi:** Speaker from Renova Cloud.
+3. **Anh Kiet:** Representative from AWS Student Community Group.
+4. **Anh Trung:** Founder & CEO of startup R AI.
+5. **Chi Bao:** Cloud Engineer at Cloud Kinetic.
+6. **Anh Nguyen Nguyen:** Cloud Engineer at Cloud Kinetic.
+7. **Anh Truong (Wayne):** AI Solution Expert at Noventic.
+8. **Chi Minh Anh:** From Solution SHA team at Noventic.
+9. **Anh Toan Nguyen:** AWS Security Builder.
 
 ### Key Highlights
-
-- **Problem Overview:** Procrastination in learning due to the brain prioritizing quick rewards from social media/games; information overload in the AI era making students confused about their orientation.
+- **Problem Overview:** Businesses face system complexity, technical debt, and the pressure to recruit high-quality personnel in the AI era.
 - **Introduced Solutions:**
-  - Turn learning into a "Dopamine gamble" to create excitement.
-  - Advanced Prompt Engineering techniques to optimize results from AI.
-  - Focus on foundational knowledge (Foundation) and the skill of asking "Why" instead of just learning tools.
-  - BMX Method (Branch-Method for Hi-Value Development): Break projects down into standardized tasks and documents so AI can assist with coding without context loss.
-- **Technologies/Services/Tools:** AWS (CloudFront, S3, Cognito, API Gateway, Lambda, Bedrock, DynamoDB), AI (ChatGPT, Claude, Gemini, Bedrock), Extension "Optimizer".
-- **Demo or Case Study:** Demo prompt optimization tools right in the browser; design Solution Architecture for a final project on AWS.
-- **Notable Points:** AI acts only as an "amplifier" of ability — if you're bad, AI makes you worse; if you're good, AI makes you more productive.
+  - **Agentic Platform:** An AI platform supporting Cloud infrastructure operations.
+  - **Voice AI Agent:** An AI voice solution for banks and call centers.
+  - **DevOps AI Agent:** Automating the investigation and handling of system incidents.
+  - **Amazon Q (Quick):** An AI assistant for HR and enterprise security.
+- **Technologies/Services/Tools:** AWS Cloud, Amazon Bedrock, Amazon Q, Multi-agent architecture, MCP (Model Context Protocol).
+- **Demo or Case Study:**
+  - Voice Agent demo answering questions about Apple products in English.
+  - Case study on handling a DDoS attack on an e-commerce application using a DevOps Agent.
+  - An application that automatically filters and evaluates CVs for the HR department.
+- **Notable Points:** AI's troubleshooting speed is measured in minutes, whereas humans take hours; AI will not replace humans but will support those who know how to use it best.
 
 ### What Was Learned
-
-- **Mindset and Methods:** The 2-minute rule (if it takes less than 2 minutes, do it immediately); "Question Everything" mindset.
-- **Technical Knowledge:** How Serverless services operate on AWS; Token mechanism in AI and techniques like Chain of Thought, Tree of Thought.
-- **Best Practices:** Provide full context and examples when writing Prompts; do not ask AI to do complex math; break down tasks to avoid AI hallucination.
-- **Practical Experience:** Employers prioritize candidates with a good thought process over those who only get correct results using AI; the importance of integrity and long-term vision.
+- **Mindset and Methods:** Students should experience the corporate environment early to accumulate practical experience rather than just studying theory.
+- **Technical Knowledge:** The differences, pros, and cons between Single-agent and Multi-agent architectures; how to build a Voice AI system supporting Vietnamese.
+- **Best Practices:** For AI to work well, the system needs good Observability and comprehensive data.
+- **Practical Experience:** Lessons on "execution first" in startups and how to choose target customers to solve real-world problems.
 
 ### Application to Work
+- **Current Projects:** AI Agents can be applied to automate system monitoring and troubleshooting (Auto-mitigation).
+- **Technologies to Explore:** Using MCP Server to securely connect AI with private enterprise data.
+- **Process Improvement:** Replacing manual CV screening with AI to save time and avoid missing out on talent.
 
-- **What can be applied to current projects:** Use the approach of breaking down modules and writing thorough documentation before asking AI for code assistance (BMX method).
-- **Technologies to test:** Experience Amazon Bedrock to access foundation models; use DynamoDB for applications requiring fast response times.
-- **Ideas to improve workflow:** Set up a learning and working environment (desk decor) for inspiration; create habit streaks like in gaming to maintain consistency.
-
-### Event Experience
-
-- **Learning from speakers:** Gain realistic perspectives from experienced professionals on the IT labor market and how to overcome mistakes.
-- **Hands-on experience:** Watch live demos on how to optimize Prompts and build a system on the Cloud.
-- **Networking:** Encouraged to join communities, build a network, and work in teams rather than going solo.
-- **Most impressive point:** The view that one "should not do unpaid internships" because of self-worth and responsibility at work.
+### Experience During the Event
+- **Learning:** Hearing about an inspiring Career Path from an ordinary engineer becoming a Solution Architect at AWS.
+- **Hands-on Experience:** Watching live technology demos running on real infrastructure.
+- **Networking:** Opportunities to ask questions directly to CEOs and top experts about tough challenges in technology and recruitment.
+- **Most Impressive Thing:** AI's ability to analyze hundreds of Cloud resource relationships to generate a system topology in just 15 minutes.
 
 ### Key Takeaways
+- **Most Important Knowledge:** AI is changing how every department operates, from engineering to HR; mastering AI tools is a survival skill.
+- **Practical Experience:** "Every minute of downtime is a huge loss", therefore accuracy and speed in incident response are top priorities.
+- **Development Direction:** Focus on deep, specialized skills that AI cannot easily replace, such as making strategic decisions and handling extremely complex situations.
 
-- **Most important knowledge:** Foundation is what doesn't change in a rapidly changing world.
-- **Practical experience:** Mistakes are part of growth; we need to make mistakes early and often to mature.
-- **Learning or future development orientation:** Focus on building persistence and professional attitude rather than chasing hot Frameworks.
+### Event Photos
+
+![Event photo 1](event3-1.png)
+
+![Event photo 2](event3-2.png)
+
+![Event photo 3](event3-3.png)
+
+![Event photo 4](event3-4.png)

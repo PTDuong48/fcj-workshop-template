@@ -12,7 +12,10 @@ pre: " <b> 4.2. </b> "
 
 ### Event Overview
 
-- **Event Name:** FCAJ Community Day.
+- **Event Name:** FCAJ Community Day
+- **Date:** 23/05/2026
+- **Location:** 26th Floor - AWS Vietnam Office (Bitexco Building, 2 Hai Trieu, Saigon Ward, Ho Chi Minh City).
+- **Organizer:** FCAJ Community (supported by AWS Study Group).
 - **Event Objectives:**
   - Not just a simple audio-visual seminar, but a place for members to connect and inspire each other in the technology field.
   - Provide a realistic view of the job market in the AI era.

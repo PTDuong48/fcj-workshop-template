@@ -1,59 +1,29 @@
 ---
 title: "Worklog Tuần 4"
 date: 2024-01-01
-weight: 1
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 4:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Khám phá sâu về dịch vụ lưu trữ trên AWS, đặc biệt là Amazon S3.
+* Tìm hiểu các giải pháp sao lưu và chuyển đổi dữ liệu lai (Snow Family, Storage Gateway).
+* Thực hành chuyên sâu các bài lab module 4 để củng cố kiến thức.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 7 | Tìm hiểu Amazon Simple Storage Service ( S3 ) - Access Point - Storage Class | 09/05/2026 | 09/05/2026 | <https://www.youtube.com/watch?v=hsCfP0lxoaM&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=103> |
+| CN | Tìm hiểu S3 Static Website & CORS - Control Access - Object Key & Performance - Glacier | 10/05/2026 | 10/05/2026 | <https://www.youtube.com/watch?v=mPBjB6LtI_Q&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=105> |
+| 2 | Tìm hiểu Snow Family - Storage Gateway - Backup | 11/05/2026 | 11/05/2026 | <https://www.youtube.com/watch?v=YXn8Q_Hpsu4&list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&index=106> |
+| 3 | Thực hành các bài lab module 4 | 12/05/2026 | 15/05/2026 | <https://000057.awsstudygroup.com/> <br> <https://000013.awsstudygroup.com/> <br> <https://000014.awsstudygroup.com/> <br> <https://000024.awsstudygroup.com/> <br> <https://000025.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 4:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hiểu rõ về Amazon S3, các tính năng Access Point và lựa chọn Storage Class phù hợp.
+* Biết cách triển khai trang web tĩnh trên S3 (Static Website), cấu hình CORS, kiểm soát quyền truy cập và tối ưu hiệu suất với Object Key và Glacier.
+* Nắm vững các công cụ chuyển dữ liệu lớn với Snow Family và tích hợp lưu trữ tại chỗ với Storage Gateway, thiết lập Backup an toàn.
+* Hoàn thành xuất sắc các bài lab thực hành module 4, nắm bắt thực tế cách quản trị dữ liệu lưu trữ đám mây.

@@ -1,59 +1,25 @@
 ---
 title: "Worklog Tuần 11"
 date: 2024-01-01
-weight: 2
+weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 11:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hoàn thiện các công tác kiểm soát chi phí và dọn dẹp tài nguyên để chuẩn bị cho bước demo.
+* Đảm bảo hệ thống hoạt động ổn định và chính xác thông qua việc kiểm thử toàn diện dự án.
+* Đóng gói quy trình triển khai (deploy) và gỡ bỏ (cleanup) thành tài liệu hướng dẫn chuẩn xác.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 7 | Cấu hình AWS Budget alerts để kiểm soát chi phí.<br>Viết lệnh deploy/cleanup và hướng dẫn dọn dẹp resource sau demo.<br>Kiểm thử dự án. | 27/06/2026 | 03/07/2026 | |
 
 
 ### Kết quả đạt được tuần 11:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* **Quản trị Chi phí (Cost Management):** Thiết lập thành công hệ thống cảnh báo AWS Budget alerts, giúp nhóm giám sát và kiểm soát chặt chẽ ngân sách sử dụng trên AWS, hạn chế tối đa rủi ro phát sinh cước phí ngoài ý muốn.
+* **Quy trình Deploy & Cleanup:** Đã hoàn thiện và đóng gói các script tự động hóa cùng tập lệnh deploy/cleanup. Xây dựng tài liệu hướng dẫn chi tiết từng bước dọn dẹp tài nguyên (resource cleanup) sau khi kết thúc quá trình demo, đảm bảo không có tài nguyên rác bị bỏ sót trên tài khoản AWS.
+* **Kiểm thử Dự án (Testing):** Tiến hành kiểm thử (test) toàn bộ luồng hoạt động của dự án từ đầu đến cuối (end-to-end testing). Đã phát hiện và khắc phục các vấn đề tiềm ẩn, đảm bảo hệ thống vận hành đúng như thiết kế kiến trúc và đạt yêu cầu đầu ra.
