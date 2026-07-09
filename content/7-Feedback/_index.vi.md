@@ -40,4 +40,4 @@ Chương trình cung cấp tài liệu học tập phong phú, hệ thống Lab 
 
 * **Tăng cường phần thực hành từ sớm:** Nên lồng ghép các mini-project nhỏ vào giai đoạn học lý thuyết (Tuần 1–7) để học viên có thể áp dụng ngay thay vì chỉ làm lab đơn lẻ.
 * **Chia sẻ thêm về thực tế doanh nghiệp:** Có thể mời thêm diễn giả từ các công ty đang dùng AWS để chia sẻ về kiến trúc thực tế và các bài học rút ra từ production, không chỉ trong các sự kiện cộng đồng mà ngay trong chương trình học.
-* **Bản thân:** Tôi rất muốn tiếp tục tham gia các chương trình nâng cao hoặc cộng đồng AWS sau khi kết thúc kỳ thực tập này.
+* **Bản thân:** Tôi rất muốn tiếp tục tham gia các chương trình nâng cao hoặc cộng đồng AWS sau khi kết thúc kỳ thực tập này nếu có điều kiện.

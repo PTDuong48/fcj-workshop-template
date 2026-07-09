@@ -40,4 +40,4 @@ The thing I was most satisfied with was **directly building a complete, real-wor
 
 * **Integrate hands-on practice earlier:** It would be beneficial to incorporate small mini-projects during the foundational learning phase (Weeks 1–7) so learners can immediately apply what they learn, rather than only doing isolated labs.
 * **More real-world enterprise sharing:** It would be great to invite more speakers from companies actively using AWS to share their real production architectures and lessons learned — not just at community events, but integrated directly into the curriculum.
-* **Personally:** I am very eager to continue participating in advanced programs or the AWS community after this internship concludes.
+* **Personally:** I am very eager to continue participating in advanced programs or the AWS community after this internship concludes, if circumstances permit.
