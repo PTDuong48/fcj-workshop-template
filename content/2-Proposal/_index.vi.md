@@ -36,7 +36,7 @@ User → CloudFront/Amplify → Cognito → API Gateway → Lambda Presigned URL
 
 ### Kiến trúc đã chốt
 
-![Kiến trúc DocuFlow AI phiên bản đã được duyệt](/images/2-Proposal/docuflow_architecture_v2.png)
+![Kiến trúc DocuFlow AI phiên bản đã được duyệt](/images/2-Proposal/Final_architecture.png)
 
 ---
 

@@ -16,18 +16,18 @@ To objectively reflect on my internship period, I would like to evaluate myself 
 
 | No. | Criteria                            | Description                                                                                      | Good | Fair | Average |
 | --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ---- | ---- | ------- |
-| 1   | **Professional knowledge & skills** | Understanding of AWS services, applying Cloud to real projects, proficiency with IaC tools (SAM) | ✅    | ☐    | ☐       |
+| 1   | **Professional knowledge & skills** | Understanding of AWS services, applying Cloud to real projects, proficiency with IaC tools (SAM) | ☐    | ✅    | ☐       |
 | 2   | **Ability to learn**                | Ability to quickly absorb new knowledge through Labs and AWS documentation                       | ☐    | ✅    | ☐       |
-| 3   | **Proactiveness**                   | Self-researching documentation, proactively proposing technical solutions to the team            | ✅    | ☐    | ☐       |
+| 3   | **Proactiveness**                   | Self-researching documentation, proactively proposing technical solutions to the team            | ☐    | ✅    | ☐       |
 | 4   | **Sense of responsibility**         | Completing assigned portions of the project on schedule                                          | ✅    | ☐    | ☐       |
-| 5   | **Discipline**                      | Adhering to team meeting schedules, rules, and program workflows                                 | ☐    | ✅    | ☐       |
+| 5   | **Discipline**                      | Adhering to team meeting schedules, rules, and program workflows                                 | ✅    | ☐    | ☐       |
 | 6   | **Progressive mindset**             | Willingness to receive feedback from Mentors and improve the system architecture design          | ✅    | ☐    | ☐       |
 | 7   | **Communication**                   | Presenting design ideas and reporting progress clearly during team meetings                      | ☐    | ✅    | ☐       |
 | 8   | **Teamwork**                        | Working effectively with teammates on task delegation and module integration for the project     | ✅    | ☐    | ☐       |
 | 9   | **Professional conduct**            | Respecting teammates, Mentors, and industry experts throughout the program                       | ✅    | ☐    | ☐       |
 | 10  | **Problem-solving skills**          | Analyzing project requirements, selecting appropriate services, and proposing optimal architecture | ☐    | ✅    | ☐       |
 | 11  | **Contribution to project/team**    | Contributing to architecture design, writing SAM templates, configuring IAM and monitoring      | ✅    | ☐    | ☐       |
-| 12  | **Overall**                         | General evaluation of the entire 12-week internship at FCJ                                      | ✅    | ☐    | ☐       |
+| 12  | **Overall**                         | General evaluation of the entire 12-week internship at FCJ                                      | ☐    | ✅    | ☐       |
 
 ### Needs Improvement
 

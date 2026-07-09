@@ -33,10 +33,10 @@ pre: " <b> 4.2. </b> "
    - Company: Got It (Gothamic).
 3. **Mr. Hai Anh:**
    - Company: Pacific Vietnam.
-4. **Mr. Nguyen Huan Thinh:**
+4. **Mr. Nguyen Tuan Thinh:**
    - Position: DevOps Engineer.
 5. **UTM Team (Uyen, Thao, Mach):** Winning team at a Hackathon competition.
-6. **Female Speaker (unnamed):**
+6. **Female Speaker (Ms. Vy):**
    - Company: VPBank (shared about Multi-agent systems in banking).
 
 ### Key Highlights

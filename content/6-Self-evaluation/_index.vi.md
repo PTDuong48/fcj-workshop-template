@@ -16,18 +16,18 @@ Về tác phong, tôi luôn cố gắng hoàn thành nhiệm vụ đúng hạn, 
 
 | STT | Tiêu chí                            | Mô tả                                                                                            | Tốt | Khá | Trung bình |
 | --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | --- | --- | ---------- |
-| 1   | **Kiến thức và kỹ năng chuyên môn** | Hiểu biết về AWS, áp dụng các dịch vụ Cloud vào dự án thực tế, kỹ năng sử dụng công cụ IaC (SAM) | ✅   | ☐   | ☐          |
+| 1   | **Kiến thức và kỹ năng chuyên môn** | Hiểu biết về AWS, áp dụng các dịch vụ Cloud vào dự án thực tế, kỹ năng sử dụng công cụ IaC (SAM) | ☐   | ✅   | ☐          |
 | 2   | **Khả năng học hỏi**                | Tiếp thu kiến thức mới nhanh chóng qua các bài Lab và tài liệu AWS                              | ☐   | ✅   | ☐          |
-| 3   | **Chủ động**                        | Tự tìm hiểu tài liệu, chủ động đề xuất giải pháp kỹ thuật cho nhóm                              | ✅   | ☐   | ☐          |
+| 3   | **Chủ động**                        | Tự tìm hiểu tài liệu, chủ động đề xuất giải pháp kỹ thuật cho nhóm                              | ☐   | ✅   | ☐          |
 | 4   | **Tinh thần trách nhiệm**           | Hoàn thành các phần công việc được phân công đúng tiến độ                                        | ✅   | ☐   | ☐          |
-| 5   | **Kỷ luật**                         | Tuân thủ lịch họp nhóm, nội quy và quy trình làm việc của chương trình                          | ☐   | ✅   | ☐          |
+| 5   | **Kỷ luật**                         | Tuân thủ lịch họp nhóm, nội quy và quy trình làm việc của chương trình                          | ✅   | ☐   | ☐          |
 | 6   | **Tính cầu tiến**                   | Sẵn sàng nhận feedback từ Mentor và cải thiện thiết kế kiến trúc hệ thống                       | ✅   | ☐   | ☐          |
 | 7   | **Giao tiếp**                       | Trình bày ý tưởng thiết kế, báo cáo tiến độ rõ ràng trong buổi họp nhóm                         | ☐   | ✅   | ☐          |
 | 8   | **Hợp tác nhóm**                    | Làm việc hiệu quả với đồng đội trong việc phân công và tích hợp các module dự án                 | ✅   | ☐   | ☐          |
 | 9   | **Ứng xử chuyên nghiệp**            | Tôn trọng đồng đội, Mentor và các chuyên gia trong suốt chương trình                            | ✅   | ☐   | ☐          |
 | 10  | **Tư duy giải quyết vấn đề**        | Phân tích yêu cầu dự án, lựa chọn dịch vụ phù hợp và đề xuất kiến trúc Serverless tối ưu        | ☐   | ✅   | ☐          |
 | 11  | **Đóng góp vào dự án**              | Tham gia đóng góp vào thiết kế kiến trúc, viết SAM template, cấu hình IAM và hệ thống giám sát  | ✅   | ☐   | ☐          |
-| 12  | **Tổng thể**                        | Đánh giá chung về toàn bộ 12 tuần thực tập tại FCJ                                              | ✅   | ☐   | ☐          |
+| 12  | **Tổng thể**                        | Đánh giá chung về toàn bộ 12 tuần thực tập tại FCJ                                              | ☐   | ✅   | ☐          |
 
 ### Cần cải thiện
 

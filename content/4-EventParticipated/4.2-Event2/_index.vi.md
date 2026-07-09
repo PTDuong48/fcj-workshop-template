@@ -33,10 +33,10 @@ pre: " <b> 4.2. </b> "
    - Đơn vị công tác: Got It (Gothamic).
 3. **Anh Hải Anh:**
    - Đơn vị công tác: Pacific Việt Nam.
-4. **Anh Nguyễn Huấn Thịnh:**
+4. **Anh Nguyễn Tuấn Thịnh:**
    - Chức vụ: DevOps Engineer.
 5. **Nhóm UTM (Uyển, Thảo, Mạch):** Đội ngũ đạt giải tại cuộc thi Hackathon.
-6. **Diễn giả nữ (không nêu tên cụ thể):**
+6. **Diễn giả nữ (Chị Vy):**
    - Đơn vị công tác: VPBank (chia sẻ về hệ thống Multi-agent trong ngân hàng).
 
 ### Nội Dung Nổi Bật

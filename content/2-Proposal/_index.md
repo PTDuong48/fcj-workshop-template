@@ -36,7 +36,7 @@ User → CloudFront/Amplify → Cognito → API Gateway → Lambda Presigned URL
 
 ### Approved Architecture
 
-![DocuFlow AI approved architecture](/images/2-Proposal/docuflow_architecture_v2.png)
+![DocuFlow AI approved architecture](/images/2-Proposal/Final_architecture.png)
 
 ---
 

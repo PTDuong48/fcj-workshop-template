@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4.3. </b> "
 ---
 
-# "FCAJ Community Day" Event Report
+# FCAJ Community Day
 
 ### Event Overview
 - **Event Name:** FCAJ Community Day
